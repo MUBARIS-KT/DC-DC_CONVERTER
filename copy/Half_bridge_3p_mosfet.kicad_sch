@@ -1,0 +1,3931 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "da5ae07e-cb3c-413a-8927-434226944062")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PCM_Diode_Zener_AKL:D_Zener_Generic"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DZ"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Generic"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode zener generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Generic_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Generic_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Resistors:Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1/4W Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "inqbe:TO-220*3_HS_inverter_type"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TO-220*3_HS_inverter_type"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "inqbe:3 FET heatsink inverter type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "Metro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TO-220*3_HS_inverter_type_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.905) (xy 1.524 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.286) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.778) (xy 4.572 -1.778) (xy 4.572 1.778) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 3.302 0.381) (xy 3.302 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0.508) (xy 4.191 0.381) (xy 4.953 0.381) (xy 5.08 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.381) (xy 4.191 -0.254) (xy 4.953 -0.254) (xy 4.572 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0.635) (xy 6.985 1.27) (xy 9.525 1.27) (xy 9.525 1.905) (xy 6.985 1.905) (xy 6.985 2.54)
+						(xy 9.525 2.54) (xy 9.525 3.175) (xy 5.715 3.175) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0.635) (xy 9.525 0.635) (xy 9.525 0) (xy 6.985 0) (xy 6.985 -0.635) (xy 9.525 -0.635)
+						(xy 9.525 -1.27) (xy 6.985 -1.27) (xy 6.985 -1.905) (xy 9.525 -1.905) (xy 9.525 -2.54) (xy 5.715 -2.54)
+						(xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.921 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TO-220*3_HS_inverter_type_1_1"
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TO-220*3_HS_inverter_type_2_1"
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TO-220*3_HS_inverter_type_3_1"
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 128.27 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0530979a-ab3a-4b79-a9cf-f6b5280597f4")
+	)
+	(junction
+		(at 140.97 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091c078d-ed32-489c-b4bc-975228e130e4")
+	)
+	(junction
+		(at 128.27 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10071aa3-4639-484e-bf5a-511e739876e4")
+	)
+	(junction
+		(at 57.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1581ffde-482c-4cba-9914-a1f1df03b9dc")
+	)
+	(junction
+		(at 76.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ddcd80-f549-4a21-9098-8756916ee4b6")
+	)
+	(junction
+		(at 147.32 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b40a763-3af4-4f9d-86db-90277e285a26")
+	)
+	(junction
+		(at 147.32 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d6453e-ee49-4149-be51-de6a88a73a82")
+	)
+	(junction
+		(at 200.66 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43b6762a-b45a-48fe-91de-a1de5ea89b90")
+	)
+	(junction
+		(at 55.88 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43dd5271-67b6-4242-af2f-7fb2522de5f9")
+	)
+	(junction
+		(at 68.58 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dabe3b6-2148-4f09-9d22-57b622e24855")
+	)
+	(junction
+		(at 55.88 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5683b706-d820-4fb0-8036-5878f11a1206")
+	)
+	(junction
+		(at 57.15 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63bebedd-01d3-4b66-bc52-4ffc6e1b8315")
+	)
+	(junction
+		(at 213.36 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ff6ab8-1a99-4dc9-9901-1b6d3f2ae6f0")
+	)
+	(junction
+		(at 200.66 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b370f0-f6f9-477f-982e-21b0847b69ed")
+	)
+	(junction
+		(at 69.85 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fbda3bd-21ad-4270-83ed-5a715a50b128")
+	)
+	(junction
+		(at 219.71 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "833f6eaa-2ddc-43ce-9e7c-9a378e019275")
+	)
+	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "840abb82-ed8f-4461-b1d7-413ae4f9b622")
+	)
+	(junction
+		(at 147.32 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c40062f-f4bc-48fc-b37a-747da995ec8b")
+	)
+	(junction
+		(at 218.44 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "916f70ee-4857-4551-849b-c8bda556ada1")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "935690dc-637d-4f3e-8809-8c9a6f1d75a3")
+	)
+	(junction
+		(at 128.27 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98fd06e5-74e3-4ecf-92f5-a85ec606fd56")
+	)
+	(junction
+		(at 199.39 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c247cf81-c529-4036-8384-4b36574e1b0c")
+	)
+	(junction
+		(at 199.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd134f5-3d9a-4e23-adf5-cc26f0083829")
+	)
+	(junction
+		(at 147.32 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d18e0334-fe1d-4ef6-bc44-181de7d40657")
+	)
+	(junction
+		(at 147.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df8b57f7-f595-49c6-906f-44fa3fbe4962")
+	)
+	(junction
+		(at 128.27 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc8bc5b-6340-4857-914e-1e161351cd83")
+	)
+	(junction
+		(at 147.32 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2fadde9-b9e2-45c0-9f3b-adaa61d70e88")
+	)
+	(junction
+		(at 212.09 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea977a3-d595-40c9-8498-aa93f11915ea")
+	)
+	(junction
+		(at 74.93 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f19bf70e-910f-48ff-8f07-d7dafe5976b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dd25c2-f595-409d-a9d6-c21dc2449748")
+	)
+	(wire
+		(pts
+			(xy 138.43 93.98) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076b9565-3d33-4d3c-a1b9-59a6950ca14d")
+	)
+	(wire
+		(pts
+			(xy 147.32 102.87) (xy 147.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08867b33-d8dc-4d9d-88f5-9934e9e9bf03")
+	)
+	(wire
+		(pts
+			(xy 58.42 139.7) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aaca9f4-2429-4d56-b5f8-6a5d802a9653")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5c25b7-34a7-42d2-810e-e082e16ff73c")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdb9a63-8e04-4dc2-8942-a2e1863258c5")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d657d1b-4710-4672-b5b4-41fa62831410")
+	)
+	(wire
+		(pts
+			(xy 53.34 125.73) (xy 55.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e295605-4697-4a0e-9d5d-f87318a4b3ce")
+	)
+	(wire
+		(pts
+			(xy 210.82 133.35) (xy 213.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147a529c-b6a8-48c5-bded-52ffd8831bec")
+	)
+	(wire
+		(pts
+			(xy 198.12 125.73) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15327506-149c-4bef-8c6a-328b639cea8f")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17052948-a89b-441a-bf5c-87284f1ff6d9")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f6a2ff-1045-4dc3-843b-c7f66392f356")
+	)
+	(wire
+		(pts
+			(xy 212.09 83.82) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2286f3f7-5e90-4f3a-9d19-fe1d12299896")
+	)
+	(wire
+		(pts
+			(xy 54.61 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2300930d-e27e-41ac-9a0a-054390642f3a")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241f4d60-e396-4973-b758-bab28b0342fb")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 74.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b72ced1-9ba9-4fa3-b5b8-8b30489fdc59")
+	)
+	(wire
+		(pts
+			(xy 219.71 129.54) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb682a3-981f-4bab-ae49-b717128532cb")
+	)
+	(wire
+		(pts
+			(xy 44.45 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc98cd3-361c-4bb2-bf5c-afaaf59b54c8")
+	)
+	(wire
+		(pts
+			(xy 55.88 125.73) (xy 68.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cef1580-27cc-40bb-946b-71036b2c87bb")
+	)
+	(wire
+		(pts
+			(xy 57.15 80.01) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e27b256-5318-4df1-94a2-83d5ee2438f2")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f09fa48-7a7b-4f51-85e0-9563ceb4d336")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aa86bf-6884-43cb-a5e2-b9077180b18f")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40aa9e3f-e595-43b5-9f23-39cc19831c3b")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417acda5-1e65-4892-85fe-62d04675b7f5")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4290ab98-886e-4fae-943c-ce2422b1b2b5")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b93d48-d261-4c70-bb12-246e336b159c")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497d994b-ec65-415c-956d-e0721c352166")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.35) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8f89d4-880e-4a15-a758-5788a9d77ede")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 201.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c640be9-2063-4826-af5c-bbdd1690ed26")
+	)
+	(wire
+		(pts
+			(xy 147.32 144.78) (xy 74.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7147d1-1646-4ee1-a89d-9167a9740f75")
+	)
+	(wire
+		(pts
+			(xy 210.82 139.7) (xy 213.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa5b76a-c2a7-434b-85c3-43422fb1e35b")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b8f97d-6feb-4ac3-8bca-5e049de32b31")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e9c73d-3cae-4ecc-9d85-9daae208b0ad")
+	)
+	(wire
+		(pts
+			(xy 140.97 129.54) (xy 140.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52798ec1-961d-4949-ab8d-418cd7638cb3")
+	)
+	(wire
+		(pts
+			(xy 218.44 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f6ddbd-efb1-4d19-8ec6-5978bf07e60d")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566998e9-ca49-453a-92d9-c25cf1eff038")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5933b27d-8e24-464a-bf99-c0c697f10cb5")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5991f3e5-8bc3-420a-aa18-f9d3a54555a3")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.23) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4b5236-8206-481b-8fb4-8846ebf4b090")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6f9eff-b2e0-459e-8516-542e42ae588c")
+	)
+	(wire
+		(pts
+			(xy 218.44 62.23) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c34727e-ea34-499d-80be-b3a26d888f13")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc16306-b7f0-4a00-9c01-3f77500a30ed")
+	)
+	(wire
+		(pts
+			(xy 55.88 133.35) (xy 58.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de143b3-0762-4f92-aff1-9642a7597a95")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eec59a4-0d41-4402-8896-8738bffd23e7")
+	)
+	(wire
+		(pts
+			(xy 55.88 125.73) (xy 55.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61360c83-84af-43b4-9b2c-ec72b28c2d81")
+	)
+	(wire
+		(pts
+			(xy 219.71 129.54) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dd20ca-bc91-432b-a75c-8137bcd931d7")
+	)
+	(wire
+		(pts
+			(xy 138.43 133.35) (xy 140.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fde762-fdae-4aee-8e69-fcfcf28a51e1")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630c36f1-5664-4fc0-b495-307b37d210be")
+	)
+	(wire
+		(pts
+			(xy 140.97 124.46) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6395e2c3-4712-431a-b739-c734588c9671")
+	)
+	(wire
+		(pts
+			(xy 66.04 133.35) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658e0df1-b4f0-46c4-8240-ed3d94277ebf")
+	)
+	(wire
+		(pts
+			(xy 147.32 144.78) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6759be7d-1310-48c4-a777-573a01052426")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678124fc-6e9d-468d-8526-8e2687e17de6")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ad4fb-3a7d-41d8-abf1-cf4a65f62f86")
+	)
+	(wire
+		(pts
+			(xy 209.55 87.63) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8f475d-241b-468f-8a4f-e4036f3358af")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b239f5a-3ad0-4e02-88c9-bdadabfe2b1d")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbded76-3af1-4722-9db0-61577e994e78")
+	)
+	(wire
+		(pts
+			(xy 187.96 125.73) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747280a1-bcc1-4f62-b691-607edb0c11b0")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e5bbee-a9ee-47b7-86a0-c1d1b2e03058")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 74.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7a0e60-61c7-46bb-af81-a863d74e549b")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5bb0a8-a14d-47ef-bc40-1740cbb65fd6")
+	)
+	(wire
+		(pts
+			(xy 212.09 78.74) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d773d-ba4e-4e37-9077-91506327fdb1")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 147.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a957a-5ae0-4e9e-bf9a-488fc39411dd")
+	)
+	(wire
+		(pts
+			(xy 69.85 83.82) (xy 69.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872c0813-dd14-4da9-a599-fae4419931f6")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e79222-1de8-4cb2-b01d-4b275d59fd17")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9313e9-f49d-4710-bfab-302521cb26bc")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccf04f6-944e-4fde-8e9a-8a5cfb164ca1")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9058dd4a-53ad-4533-aa02-fdcff8dbe332")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93de7262-dca9-41d2-9d73-a229c06aec8f")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 128.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e558aa-77f4-4cc1-9d6e-897cef8c9862")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97df6786-7409-4786-abbd-cce07c1c957c")
+	)
+	(wire
+		(pts
+			(xy 186.69 80.01) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993386a9-c8cd-4ca5-a85a-d1c280b79e10")
+	)
+	(wire
+		(pts
+			(xy 147.32 129.54) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9fa8ba-1ffc-450a-9551-9a43b20346a8")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc86dc3-7a57-4129-a833-4e55eb5e14dc")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e48aad3-d43f-4343-bcc7-1eb359432285")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e004d1-1d23-4936-9548-20c7f642704d")
+	)
+	(wire
+		(pts
+			(xy 67.31 87.63) (xy 69.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fdf017-f453-4627-a3e2-90f61fce3bb7")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 199.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f1c22b-0951-4df1-ae10-026a54d1a16e")
+	)
+	(wire
+		(pts
+			(xy 43.18 125.73) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a980051f-b031-4fcf-b4ba-4bedc4131419")
+	)
+	(wire
+		(pts
+			(xy 68.58 133.35) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba3d663-e6ac-43b2-af20-29130b8674e5")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af875c15-6f35-4031-a82f-929c0eb4e93b")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d890aa-db4e-4f17-8ca4-012d2300e2c9")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5802462-eff8-411d-9743-bda2bdcf0c06")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78441d5-90ff-4e26-8b8d-7f04771cd397")
+	)
+	(wire
+		(pts
+			(xy 213.36 133.35) (xy 213.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8467108-0912-4397-9818-04b4d0f25194")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a1187a-f6a0-447d-a407-feb62b3e094f")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a709de-3f94-4974-a05f-707604f9188e")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fde17c-6f63-4477-8d45-8013b2f4c2b0")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 118.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1046d6-4ea3-41d9-bc31-65bd51934ef1")
+	)
+	(wire
+		(pts
+			(xy 218.44 83.82) (xy 218.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09377be-1f43-4ad8-bb04-aa8e9fe6bcf0")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a147c7-56d2-4d80-a9a9-9d126918bf77")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d528047a-ea6b-4b49-b287-7c42f5959880")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 140.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da72323d-f362-4e0f-a0ec-37713c12121a")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9aa18e-6f9c-44b0-a7b0-15d8673ba649")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 199.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc896b2e-839b-49e6-b487-9d370f9cfb55")
+	)
+	(wire
+		(pts
+			(xy 219.71 109.22) (xy 219.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df058bcf-8a69-4cd6-ab51-84a83230e09e")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 218.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e173109e-23f4-4911-8330-2ba3b1e2609f")
+	)
+	(wire
+		(pts
+			(xy 147.32 129.54) (xy 140.97 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fd1639-c935-4ee5-8a42-3dbb212c7cb9")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa55a0f-a94f-41a2-81c1-9d34af4b7044")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 128.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed25ec5c-7eff-4207-a12a-605465b0897e")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 128.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb4ad0b-8d0c-46c8-ba89-15bc328432a4")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 199.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90f564d-2132-4f97-8a7d-7e36f5dce5c8")
+	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 213.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa434b2a-7b3c-4390-a2a2-b2a69877910d")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 219.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6d79bd-e8ca-43e3-a230-052f5b411e24")
+	)
+	(text "HALF BRIDGE\n"
+		(exclude_from_sim no)
+		(at 142.24 19.05 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "853b1cb9-3c6f-4888-80b0-6522f8f08dbf")
+	)
+	(hierarchical_label "High_gate"
+		(shape input)
+		(at 44.45 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21164c02-3561-4c2c-aa55-9b42ffb15fb2")
+	)
+	(hierarchical_label "MID"
+		(shape input)
+		(at 142.24 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "398bee0c-53ba-4885-90da-5dbc2cc810b4")
+	)
+	(hierarchical_label "Low_gate"
+		(shape input)
+		(at 43.18 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78ad7cd3-9f89-443d-927b-f9191d7efb4e")
+	)
+	(hierarchical_label "High_gate"
+		(shape input)
+		(at 186.69 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7beae499-03ac-46d0-8e4e-f9c81e584d4d")
+	)
+	(hierarchical_label "DC_BUS"
+		(shape input)
+		(at 147.32 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a9398fb-83b8-41af-a84c-dd03b5490949")
+	)
+	(hierarchical_label "Low_gate"
+		(shape input)
+		(at 115.57 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c271b91-4e2f-4911-8fb5-f92676c4ca6d")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 147.32 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8df27465-f1f7-4804-b642-caa9ed058a8b")
+	)
+	(hierarchical_label "High_gate"
+		(shape input)
+		(at 115.57 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98739815-d95f-4af4-af11-6c626c908c12")
+	)
+	(hierarchical_label "Low_gate"
+		(shape input)
+		(at 187.96 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc21a9f8-0bbe-4351-8774-40570ffc772f")
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 207.01 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03f3e6a4-91b0-4bf1-8b54-9a6688191481")
+		(property "Reference" "DZ12"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 207.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 207.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 207.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e537f88b-85e7-4499-9d01-e75636091bd3")
+		)
+		(pin "1"
+			(uuid "69be68fe-4e20-4ef9-b4d6-d9019c98de4c")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ12")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 215.9 124.46 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1265a4ab-3a5e-476c-971d-e7be3faa4bd4")
+		(property "Reference" "Q2"
+			(at 227.33 122.9994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 227.33 125.5394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1c07802e-1830-45a4-8069-8edb21ccca18")
+		)
+		(pin "8"
+			(uuid "58e4287c-60cd-459a-8557-100505a05929")
+		)
+		(pin "1"
+			(uuid "3fd768b4-f83c-40ff-8c35-2276f27bfc3a")
+		)
+		(pin "2"
+			(uuid "264bd7b3-506e-4044-807b-b79bf6cbf8e0")
+		)
+		(pin "3"
+			(uuid "471c6a3d-dd19-4464-a993-87ad568ffba7")
+		)
+		(pin "7"
+			(uuid "31b9ece1-04c2-413b-b910-37e6b23b93da")
+		)
+		(pin "5"
+			(uuid "2e0a739b-6c89-4810-bb23-692f67b00a7e")
+		)
+		(pin "9"
+			(uuid "e39f9ad8-9e33-42fd-af62-84c0529457bb")
+		)
+		(pin "4"
+			(uuid "efd2af81-b4db-4169-a3cd-84c37fa8fc18")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q2")
+					(unit 3)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 207.01 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d96b442-7202-45e9-9f68-84aabc8ca154")
+		(property "Reference" "R24"
+			(at 207.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 207.899 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.518 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ee5348-f7f6-47a9-b713-d6253f39e008")
+		)
+		(pin "2"
+			(uuid "5fd42907-5bda-4e97-a646-ea5328d651f5")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 121.92 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "207bc909-bdd3-4420-878c-12e6a4515f5f")
+		(property "Reference" "R17"
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 122.809 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.428 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f7648a-4ef7-450f-a400-9cb7f959ae03")
+		)
+		(pin "2"
+			(uuid "62da7c97-1b64-4ba9-b0a6-03c9e887ee26")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 193.04 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a54f420-9840-4b08-9964-531ed5573c4c")
+		(property "Reference" "R21"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 193.929 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.548 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b840f7f1-7bb6-4aeb-a28f-38b8321aae96")
+		)
+		(pin "2"
+			(uuid "fa20150a-cdb2-40d2-bfc3-53d02ce41e9e")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 134.62 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e649f2a-1283-45e4-b823-4bc3dc986e6b")
+		(property "Reference" "R19"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.509 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.128 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c119032e-b258-4f7f-93e1-141da58457dc")
+		)
+		(pin "2"
+			(uuid "28fb2140-d618-470a-a6a1-8cf0779f5bc2")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 62.23 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bc58e68-16f5-4063-9ed9-92bcd09f63f8")
+		(property "Reference" "R15"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.119 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.738 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b18f940-d056-450c-b80d-f65e621020aa")
+		)
+		(pin "2"
+			(uuid "3f7742a1-bbf7-4e05-bf94-037200772aae")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 63.5 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59c47c81-e9f6-4ea2-9d06-8c4ba78b9135")
+		(property "Reference" "R16"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.389 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.008 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d4c5ea-e4d0-4aba-ba62-f4306f8ecec3")
+		)
+		(pin "2"
+			(uuid "62a220fe-9f0b-4111-a74f-c84c54333cd8")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 143.51 124.46 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "694c3d3c-2ce1-4f1c-8532-d1da1e2134d5")
+		(property "Reference" "Q2"
+			(at 154.94 122.9994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 154.94 125.5394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1c07802e-1830-45a4-8069-8edb21ccca19")
+		)
+		(pin "8"
+			(uuid "58e4287c-60cd-459a-8557-100505a0592a")
+		)
+		(pin "1"
+			(uuid "3fd768b4-f83c-40ff-8c35-2276f27bfc3b")
+		)
+		(pin "2"
+			(uuid "264bd7b3-506e-4044-807b-b79bf6cbf8e1")
+		)
+		(pin "3"
+			(uuid "471c6a3d-dd19-4464-a993-87ad568ffba8")
+		)
+		(pin "7"
+			(uuid "31b9ece1-04c2-413b-b910-37e6b23b93db")
+		)
+		(pin "5"
+			(uuid "2e0a739b-6c89-4810-bb23-692f67b00a7f")
+		)
+		(pin "9"
+			(uuid "e39f9ad8-9e33-42fd-af62-84c0529457bc")
+		)
+		(pin "4"
+			(uuid "efd2af81-b4db-4169-a3cd-84c37fa8fc19")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q2")
+					(unit 2)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 194.31 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd349a0-75cf-458b-b7a4-f92da12fdd67")
+		(property "Reference" "R22"
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 195.199 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.818 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39165a05-40e5-4f4d-8fc4-4cf70e9d6b59")
+		)
+		(pin "2"
+			(uuid "86ca721c-702d-4b73-8042-dcd48ade623f")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 62.23 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7425a0e9-2716-450f-9f6d-9e3b47ad84d0")
+		(property "Reference" "DZ7"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 62.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d31a549-505b-408f-a0a7-f0368eb7e063")
+		)
+		(pin "1"
+			(uuid "bfc2800a-f7c5-491f-81f9-ffa5295257bf")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ7")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 134.62 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b179491-371f-494a-b385-6e41590de968")
+		(property "Reference" "DZ9"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0ff4a2d-b475-4718-aaa1-d57aed77b5e1")
+		)
+		(pin "1"
+			(uuid "a8d5d2d1-7e6f-4a30-a15d-0b9e0a5b74fb")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ9")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 71.12 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8690581c-84a3-4f91-8a52-1e335597b7c2")
+		(property "Reference" "Q2"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 78.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1c07802e-1830-45a4-8069-8edb21ccca1a")
+		)
+		(pin "8"
+			(uuid "58e4287c-60cd-459a-8557-100505a0592b")
+		)
+		(pin "1"
+			(uuid "3fd768b4-f83c-40ff-8c35-2276f27bfc3c")
+		)
+		(pin "2"
+			(uuid "264bd7b3-506e-4044-807b-b79bf6cbf8e2")
+		)
+		(pin "3"
+			(uuid "471c6a3d-dd19-4464-a993-87ad568ffba9")
+		)
+		(pin "7"
+			(uuid "31b9ece1-04c2-413b-b910-37e6b23b93dc")
+		)
+		(pin "5"
+			(uuid "2e0a739b-6c89-4810-bb23-692f67b00a80")
+		)
+		(pin "9"
+			(uuid "e39f9ad8-9e33-42fd-af62-84c0529457bd")
+		)
+		(pin "4"
+			(uuid "efd2af81-b4db-4169-a3cd-84c37fa8fc1a")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 143.51 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d894d8-2743-4bae-b181-266c0fe05a34")
+		(property "Reference" "Q15"
+			(at 154.94 77.2794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 154.94 79.8194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "033d698f-1c5e-4df1-9e67-93d598c4c6d7")
+		)
+		(pin "2"
+			(uuid "7bb80920-595c-4139-8209-a7aec6e4cc41")
+		)
+		(pin "4"
+			(uuid "0cea01af-29a3-4f14-b347-e842c8b08ee4")
+		)
+		(pin "5"
+			(uuid "78c33b3c-7a84-4e16-bb14-bacd97afbd0f")
+		)
+		(pin "9"
+			(uuid "da689530-26e5-4f66-aabc-7a51d7ce6bb4")
+		)
+		(pin "7"
+			(uuid "ca000553-0b83-4282-9a50-c79d014f39b2")
+		)
+		(pin "3"
+			(uuid "7a471248-7d03-4826-8d59-90db6665bbcc")
+		)
+		(pin "6"
+			(uuid "2316ac31-9839-4a34-8905-e354667ce055")
+		)
+		(pin "1"
+			(uuid "1cc30eb3-5087-421b-b050-e024d22fd159")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q15")
+					(unit 2)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 205.74 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b676bbad-0e37-4332-a62b-9af47d41bfd8")
+		(property "Reference" "DZ11"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "124967c2-30ba-4800-971d-a5165aaa7d01")
+		)
+		(pin "1"
+			(uuid "6c6edd9b-e898-4ae4-8b72-4b629f97bafe")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ11")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 134.62 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b712600c-f094-4312-86bd-11c52c44f65d")
+		(property "Reference" "DZ10"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 134.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77bfb214-86d3-4090-8bbb-950ea872a051")
+		)
+		(pin "1"
+			(uuid "296d9772-19ee-4511-8dd5-98dcb8b16bd7")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ10")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 50.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c741ebad-edbe-4eab-982a-ca875eff6d52")
+		(property "Reference" "R14"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 51.689 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.308 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a11a970a-dcfe-4a96-82c9-fc88145bc1db")
+		)
+		(pin "2"
+			(uuid "73840363-27d2-4498-8d31-60bc6e3291af")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
+		(at 63.5 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c876f177-a31c-4d17-a9d7-fc2fce62e290")
+		(property "Reference" "DZ8"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener_Generic"
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acfff52e-d174-493e-bef5-e0b4326cc200")
+		)
+		(pin "1"
+			(uuid "388426d9-7914-49b4-ab7f-dab455195c41")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "DZ8")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "DZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 121.92 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca690ba-7c4f-43f1-afcd-b8ddf2259c3a")
+		(property "Reference" "R18"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 122.809 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.428 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1b1152-61fe-4c8d-8f30-75584598ef35")
+		)
+		(pin "2"
+			(uuid "f283e7d7-6fdc-41a3-9708-31e4db74349f")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 214.63 78.74 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1dffb1-4ae5-4865-8d6d-27b289719046")
+		(property "Reference" "Q15"
+			(at 226.06 77.2794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 226.06 79.8194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "033d698f-1c5e-4df1-9e67-93d598c4c6d8")
+		)
+		(pin "2"
+			(uuid "7bb80920-595c-4139-8209-a7aec6e4cc42")
+		)
+		(pin "4"
+			(uuid "0cea01af-29a3-4f14-b347-e842c8b08ee5")
+		)
+		(pin "5"
+			(uuid "78c33b3c-7a84-4e16-bb14-bacd97afbd10")
+		)
+		(pin "9"
+			(uuid "da689530-26e5-4f66-aabc-7a51d7ce6bb5")
+		)
+		(pin "7"
+			(uuid "ca000553-0b83-4282-9a50-c79d014f39b3")
+		)
+		(pin "3"
+			(uuid "7a471248-7d03-4826-8d59-90db6665bbcd")
+		)
+		(pin "6"
+			(uuid "2316ac31-9839-4a34-8905-e354667ce056")
+		)
+		(pin "1"
+			(uuid "1cc30eb3-5087-421b-b050-e024d22fd15a")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q15")
+					(unit 3)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q14")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inqbe:TO-220*3_HS_inverter_type")
+		(at 72.39 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8df1fea-49b7-4482-8f0a-f3f05f4cf632")
+		(property "Reference" "Q15"
+			(at 83.82 77.2794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO-220*3_HS_inverter_type"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inqbe:3 FET heatsink inverter type"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "Metro"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "033d698f-1c5e-4df1-9e67-93d598c4c6d9")
+		)
+		(pin "2"
+			(uuid "7bb80920-595c-4139-8209-a7aec6e4cc43")
+		)
+		(pin "4"
+			(uuid "0cea01af-29a3-4f14-b347-e842c8b08ee6")
+		)
+		(pin "5"
+			(uuid "78c33b3c-7a84-4e16-bb14-bacd97afbd11")
+		)
+		(pin "9"
+			(uuid "da689530-26e5-4f66-aabc-7a51d7ce6bb6")
+		)
+		(pin "7"
+			(uuid "ca000553-0b83-4282-9a50-c79d014f39b4")
+		)
+		(pin "3"
+			(uuid "7a471248-7d03-4826-8d59-90db6665bbce")
+		)
+		(pin "6"
+			(uuid "2316ac31-9839-4a34-8905-e354667ce057")
+		)
+		(pin "1"
+			(uuid "1cc30eb3-5087-421b-b050-e024d22fd15b")
+		)
+		(instances
+			(project ""
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 205.74 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9e4bd96-a884-489a-97d5-5a7c84648a64")
+		(property "Reference" "R23"
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 206.629 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.248 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9159353-06e4-46c5-9762-0634f60989f8")
+		)
+		(pin "2"
+			(uuid "d983ad1d-96a6-4fff-914b-11b101a1ca41")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 49.53 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6b4a3bd-4d3c-4571-ad8e-8313296b5c9f")
+		(property "Reference" "R13"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10e"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 50.419 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.038 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aefe3d97-ae5d-4fb8-bca2-a7d2bb7441ef")
+		)
+		(pin "2"
+			(uuid "c39f744c-a63c-4ad3-9531-b6fdcd2f0e27")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 134.62 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdc4c035-5b16-41c6-9f92-83af6e90c794")
+		(property "Reference" "R20"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.509 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.128 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce9d70c6-3aa1-4a88-b66c-056e4120a15c")
+		)
+		(pin "2"
+			(uuid "4f0d3f2f-b70c-475f-bfaf-00efca26dca9")
+		)
+		(instances
+			(project "kIKAD"
+				(path "/2656c279-13f9-4522-a92d-569308544754/3a5082aa-e213-48ca-b64c-d688a4507445"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/2656c279-13f9-4522-a92d-569308544754/8be67235-62a3-4dd1-97f4-ae7a8613dd7c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
