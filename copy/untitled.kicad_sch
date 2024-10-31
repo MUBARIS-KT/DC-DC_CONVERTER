@@ -2025,11 +2025,12 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 173.99 77.47 0)
+			(at 176.53 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2230,7 +2231,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470E"
+		(property "Value" "1K"
 			(at 176.53 91.4399 90)
 			(effects
 				(font
@@ -2366,7 +2367,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470E"
+		(property "Value" "1K"
 			(at 166.37 121.9199 90)
 			(effects
 				(font
@@ -2574,11 +2575,12 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 163.83 107.95 0)
+			(at 166.37 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3004,7 +3006,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 173.99 116.84 90)
+		(at 173.99 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3018,7 +3020,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
@@ -3027,7 +3029,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
